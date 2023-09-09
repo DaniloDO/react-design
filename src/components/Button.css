@@ -1,0 +1,27 @@
+.button-container {
+    margin-top: 70px;
+   text-align: center;
+}
+
+.btn-primary {
+    background-color: #fff;
+    color: #242424;
+    border: 1px solid #fff;
+}
+
+.btn-primary:hover {
+    background-color: transparent;
+    border: 1px solid #fff;
+}
+
+.btn-outline-primary {
+    background-color: transparent;
+    color: #fff;
+    border: 1px solid #fff;
+}
+
+.btn-outline-primary:hover {
+    background-color: #fff;
+    color: #242424;
+    border: 1px solid #fff;
+}

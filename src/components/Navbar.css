@@ -1,0 +1,132 @@
+
+.nav-container {
+    position: fixed;
+    display: flex;
+    height: 100px;
+    width: 100%;
+    background-color: #21222A; 
+    color: #fff;
+}
+
+.logo-image {
+    position: relative;
+    margin-top: -25px;
+    height: 75px;
+    width: 75px;
+    border-radius: 50px;
+}
+
+.menu-container {
+    position: relative;
+    margin-left: auto;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    margin-right: 25px; 
+    background-color: #21222A;
+    border-radius: 30px;
+}
+
+.menu-container-active {
+    position: relative;
+    margin-left: auto;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    margin-right: 25px; 
+    background-color: rgb(51, 182, 182);
+    border-radius: 30px;
+
+}
+
+.menu-list {
+    display: flex;
+    margin: 15px 0px 0px 0px; 
+    list-style-type: none;
+    color: #fff;
+    align-items: center;
+}
+
+.menu-link {
+    margin: 20px;
+}
+
+.menu-list > li:hover {
+    background-color: rgb(28, 136, 136);
+    border-radius: 30px;
+    transition: all 0.3s ease-in-out;
+}
+
+.logo-container {
+    position: relative;
+    margin: 40px 0px 0px 40px;
+}
+
+.icon-container {
+    display: none;
+}
+
+.fa-bars {
+    color: #fff;
+}
+
+.fa-times {
+    color: #fff;
+}
+
+@media screen and (max-width: 980px) {
+
+    .nav-button {
+        position: absolute;
+        top: -35px;
+        left: 40px;
+    
+    }
+    
+    .icon-container {
+        display: block;
+        position: absolute;
+        top: 50px;
+        right: 50px;
+    }
+
+    .menu-container {
+        display: flex;
+        position: absolute;
+        top: 90px;
+        height: 80vh;
+        left: -500px;
+        transition: 0.4s ease-in;
+    }
+
+    .menu-container-active {
+        display: flex;
+        position: absolute;
+        top: 90px;
+        height: 80vh;
+        left: 0;
+        justify-content: center;
+        background-color: rgb(51, 182, 182);
+        border-radius: 30px;
+        transition: 0.4s ease-in;
+
+    }
+
+    .menu-list {
+        display: flex;
+        flex-direction: column;
+        width: 40vw;
+    }
+
+    .menu-list > li {
+        margin: 25px;
+    }
+}
+
+.nav-button {
+    position: relative;
+    top: -35px;
+    right: 15px;
+
+}
+
+
+

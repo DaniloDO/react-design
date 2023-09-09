@@ -1,0 +1,14 @@
+.hero-container {
+    height: 900px;
+    width: 100%;
+    color: #fff;
+    background-image: url('../../public/images/Earth.jpg');
+    background-position: center center;
+}
+
+.hero-title {
+    padding-top: 120px;
+    color: #fff;
+    font-size: 70px;
+    text-align: center;
+}
