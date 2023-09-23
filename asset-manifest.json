@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/react-design/static/css/main.816248ca.css",
-    "main.js": "/react-design/static/js/main.5ddedc2c.js",
+    "main.js": "/react-design/static/js/main.fee70387.js",
     "static/media/Earth.jpg": "/react-design/static/media/Earth.c85a30cfb40f5e3b4bf1.jpg",
     "index.html": "/react-design/index.html",
     "main.816248ca.css.map": "/react-design/static/css/main.816248ca.css.map",
-    "main.5ddedc2c.js.map": "/react-design/static/js/main.5ddedc2c.js.map"
+    "main.fee70387.js.map": "/react-design/static/js/main.fee70387.js.map"
   },
   "entrypoints": [
     "static/css/main.816248ca.css",
-    "static/js/main.5ddedc2c.js"
+    "static/js/main.fee70387.js"
   ]
 }
