@@ -31,7 +31,7 @@ const router = createHashRouter([
   }
 
 
-])
+], {basename: '/'})
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render( <RouterProvider router={router} /> );
