@@ -2,7 +2,7 @@
   "name": "react-design",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://DaniloDo.github.io/react-design",
+  "homepage": "https://DaniloDO.github.io/react-design",
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",

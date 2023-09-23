@@ -6,9 +6,9 @@ import Search from './pages/Search';
 import All from './pages/All';
 import Contact from './pages/Contact';
 
-import { createBrowserRouter, RouterProvider, Router} from "react-router-dom";
+import { createBrowserRouter, createHashRouter, RouterProvider, Router} from "react-router-dom";
 
-const router = createBrowserRouter([
+const router = createHashRouter([
 
   {
     path: '/',

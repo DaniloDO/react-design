@@ -54,7 +54,7 @@ export default function Footer() {
 
     return (
         <div className="footer-container">
-            <h3 className="footer-title">We're thrilled to support you in your professional and personal endevours</h3>
+            <h3 className="footer-title">We're thrilled to support you in your professional and personal endeavors</h3>
             <section className="links-section">
                 <div className="links-container">
                     {links}
